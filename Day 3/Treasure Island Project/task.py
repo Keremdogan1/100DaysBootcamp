@@ -22,3 +22,60 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 ''')
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
+def lose(message) :
+    print(r'''
+    *****************************************
+                     uuuuuuu
+                 uu$$$$$$$$$$$uu
+              uu$$$$$$$$$$$$$$$$$uu
+             u$$$$$$$$$$$$$$$$$$$$$u
+            u$$$$$$$$$$$$$$$$$$$$$$$u
+           u$$$$$$$$$$$$$$$$$$$$$$$$$u
+           u$$$$$$$$$$$$$$$$$$$$$$$$$u
+           u$$$$$$"   "$$$"   "$$$$$$u
+           "$$$$"      u$u       $$$$"
+            $$$u       u$u       u$$$
+            $$$u      u$$$u      u$$$
+             "$$$$uu$$$   $$$uu$$$$"
+              "$$$$$$$"   "$$$$$$$"
+                u$$$$$$$u$$$$$$$u
+                 u$"$"$"$"$"$"$u
+      uuu        $$u$ $ $ $ $u$$       uuu
+     u$$$$        $$$$$u$u$u$$$       u$$$$
+      $$$$$uu      "$$$$$$$$$"     uu$$$$$$     
+    u$$$$$$$$$$$uu    """""    uuuu$$$$$$$$$$
+    $$$$"""$$$$$$$$$$uuu   uu$$$$$$$$$"""$$$"
+     """      ""$$$$$$$$$$$uu ""$"""
+               uuuu ""$$$$$$$$$$uuu
+      u$$$uuu$$$$$$$$$uu ""$$$$$$$$$$$uuu$$$
+      $$$$$$$$$$""""           ""$$$$$$$$$$$"
+       "$$$$$"                      ""$$$$""
+         $$$"                         $$$$"
+    *****************************************
+    ''')
+
+    print(message)
+    print("You died! Game Over...")
+print("You're at a cross road. Where do you want to go?")
+sel1 = input("     Type \"left\" or \"right\"\n").lower()
+
+if sel1 == "left":
+    print("You've come to a lake. There is an island in the middle of the lake.")
+    sel2 = input("  Type \"wait\" to wait for a boat. Type \"swim\" to swim across.\n").lower()
+
+    if sel2 == "wait":
+        print("You arrive at the island unharmed. There is a house with 3 doors.")
+        sel3 = input("  One red, one yellow and one blue. Which color do you choose?\n").lower()
+
+        if sel3 == "yellow" :
+            print("You found the treasure! You win!")
+        elif sel3 == "red" :
+            lose("It's a room full of fire.")
+        elif sel3 == "blue" :
+            lose("You enter a room of beasts.")
+        else:
+            lose("")
+    else:
+        lose("You get attacked by an angry trout.")
+else:
+    lose("You fell into a hole.")
