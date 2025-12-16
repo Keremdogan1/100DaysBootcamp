@@ -1,0 +1,9 @@
+Sevgili [NAME],
+
+Sonunda o mistik gün geldi, bugün doğum günün! Harika bir gün geçirmeni dilerim!
+
+Yürekten sevgilerimle,
+
+(Python kullanarak oluşturuldu.)
+
+Kerem

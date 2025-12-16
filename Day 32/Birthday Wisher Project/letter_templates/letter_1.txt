@@ -1,0 +1,9 @@
+Sevgili [NAME],
+
+Doğum günün kutlu olsun!
+
+Hayatının en güzel yaşını geçirmeni umuyorum!
+
+(Python kullanarak oluşturuldu.)
+
+Kerem

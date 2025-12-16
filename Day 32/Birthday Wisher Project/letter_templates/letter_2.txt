@@ -1,0 +1,9 @@
+Selamlar [NAME],
+
+Doğum günün kutlu olsun! Bugün mükemmel bir gün geçir ve bolca pasta ye!
+
+Kucak dolu sevgilerimle,
+
+(Python kullanarak oluşturuldu.)
+
+Kerem
