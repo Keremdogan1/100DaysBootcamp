@@ -12,16 +12,13 @@ graph_id = "graph1"
 
 headers = {"X-USER-TOKEN": pixela_token}
 
-# Başlangıç tarihi: 21 Aralık 2025
 start_date = datetime(2025, 12, 21)
-# Bitiş tarihi: bugünün tarihi
 end_date = datetime.now()
 
-# Tüm günleri dolaş
 for i in range((end_date - start_date).days + 1):
     day = start_date + timedelta(days=i)
-    date_str_api = day.strftime("%Y%m%d")       # Pixela için gerekli format
-    date_str_print = day.strftime("%d/%m/%Y")   # Ekrana yazdırmak için istediğin format
+    date_str_api = day.strftime("%Y%m%d")       
+    date_str_print = day.strftime("%d/%m/%Y")   
 
     url = f"https://pixe.la/v1/users/{pixela_username}/graphs/{graph_id}/{date_str_api}"
     response = requests.get(url, headers=headers)
@@ -36,3 +33,4 @@ for i in range((end_date - start_date).days + 1):
             except Exception:
                 print("Raw optionalData:", data["optionalData"])
             print("-" * 40)
+            
