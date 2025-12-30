@@ -6,7 +6,7 @@
 ![Commit Activity](https://img.shields.io/github/commit-activity/m/Keremdogan1/100-days-bootcamp)
 ![Last Commit](https://img.shields.io/github/last-commit/Keremdogan1/100-days-bootcamp)
 
-![Progress](https://img.shields.io/badge/Progress-46%2F100-brightgreen?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Progress-47%2F100-brightgreen?style=for-the-badge)
 
 ---
 
@@ -38,18 +38,20 @@ tracking my progress from Python fundamentals to more advanced, real-world use c
 <!-- DAILY_PROGRESS_START -->
 ## 📅 Daily Progress
 
-### Day 46 – Spotify Musical Time Machine
-- 📄 [Open Summary](./Day%2046/summary.md)
-- 📂 [Open Folder](./Day%2046)
+### Day 47 – Automated Amazon Price Tracker
+- 📄 [Open Summary](./Day%2047/summary.md)
+- 📂 [Open Folder](./Day%2047)
 ---
 <details>
 <summary><strong>📚 Previous Days</strong></summary>
 
-### Day 45 – Web Scraping with BeautifulSoup
+### Day 46 – Spotify Musical Time Machine
 - 📄 [Open Summary](./Day%2046/summary.md)
 - 📂 [Open Folder](./Day%2046)
+### Day 45 – Web Scraping with BeautifulSoup
+- 📄 [Open Summary](./Day%2045/summary.md)
+- 📂 [Open Folder](./Day%2045)
 </details>
-
 <!-- DAILY_PROGRESS_END -->
 
 ---

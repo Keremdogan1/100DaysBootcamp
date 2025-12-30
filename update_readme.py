@@ -53,27 +53,30 @@ def build_daily_progress(days):
 
     # 🔹 Latest day
     latest_day, latest_dir, latest_title = days_desc[0]
+    encoded_latest = quote(latest_dir.name)
+
     lines.append(f"### {latest_title}")
-    encoded = quote(latest_dir.name)
-    lines.append(f"- 📄 [Open Summary](./{encoded}/summary.md)")
-    lines.append(f"- 📂 [Open Folder](./{encoded})")
+    lines.append(f"- 📄 [Open Summary](./{encoded_latest}/summary.md)")
+    lines.append(f"- 📂 [Open Folder](./{encoded_latest})")
 
     # 🔹 Tek gün varsa
     if len(days_desc) == 1:
         return "\n".join(lines), latest_day
 
-    # 🔹 Önceki günler
+    # 🔹 Separator (SADECE burada)
     lines.append("---")
+
+    # 🔹 Previous days
     lines.append("<details>")
     lines.append("<summary><strong>📚 Previous Days</strong></summary>\n")
 
     for day, d, title in days_desc[1:]:
+        encoded = quote(d.name)
         lines.append(f"### {title}")
-        encoded = quote(latest_dir.name)
         lines.append(f"- 📄 [Open Summary](./{encoded}/summary.md)")
         lines.append(f"- 📂 [Open Folder](./{encoded})")
 
-    lines.append("</details>\n")
+    lines.append("</details>")
 
     return "\n".join(lines), latest_day
 
