@@ -1,4 +1,3 @@
 .env
 .env*
 headers_auth.json
-chrome_profile/
