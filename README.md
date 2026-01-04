@@ -6,7 +6,7 @@
 ![Commit Activity](https://img.shields.io/github/commit-activity/m/Keremdogan1/100-days-bootcamp)
 ![Last Commit](https://img.shields.io/github/last-commit/Keremdogan1/100-days-bootcamp)
 
-![Progress](https://img.shields.io/badge/Progress-51%2F100-brightgreen?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Progress-52%2F100-brightgreen?style=for-the-badge)
 
 ---
 
@@ -38,13 +38,16 @@ tracking my progress from Python fundamentals to more advanced, real-world use c
 <!-- DAILY_PROGRESS_START -->
 ## 📅 Daily Progress
 
-### Day 51 – Internet Speed Twitter Complaint Bot with Selenium
-- 📄 [Open Summary](./Day%2051/summary.md)
-- 📂 [Open Folder](./Day%2051)
+### Day 52 – Instagram Follower Bot with Selenium
+- 📄 [Open Summary](./Day%2052/summary.md)
+- 📂 [Open Folder](./Day%2052)
 ---
 <details>
 <summary><strong>📚 Previous Days</strong></summary>
 
+### Day 51 – Internet Speed Twitter Complaint Bot with Selenium
+- 📄 [Open Summary](./Day%2051/summary.md)
+- 📂 [Open Folder](./Day%2051)
 ### Day 50 – Automating Tinder Swipes with Selenium
 - 📄 [Open Summary](./Day%2050/summary.md)
 - 📂 [Open Folder](./Day%2050)
